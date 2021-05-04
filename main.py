@@ -15,6 +15,14 @@ async def ping(ctx):
 
 @bot.command("coin") # we're making a command that returns a random choice from a list
 async def coin(ctx):
-    await ctx.send(random.choice(['Heads', 'Tails'])) # your bot will choose either 'heads' or 'tails'.
+    await ctx.send(random.choice(['Heads', 'Tails'])) # your bot will choose either 'heads' or 'tails'. 
+
+@bot.command("8ball") # we're making an 8ball command so that it doesn't erroring
+async def _ball(ctx):
+    await ctx.send(random.choice(['All', 'The', '8ball', 'Responses']))
+
+@bot.command("info") # we're creating a command with multiple lines
+async def info(ctx):
+    await ctx.send('This is an informational command! \n I was created by... \n My language is Python. \n My library is discord.py') # \n creates a new line without it erroring
 
 bot.run("your token here")
