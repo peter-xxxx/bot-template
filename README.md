@@ -8,7 +8,7 @@ We will host our bot for free on Heroku.
 
 # read the docs
 Read the discord.py documentation at https://discordpy.readthedocs.io
-See the discord.py Github repository: https://github.com/Rapttz/discord.py
+See the discord.py Github repository: https://github.com/rapttz/discord.py
 
 # creating the bot
 Go to https://discordapp.com/developers. Create an application. This will be your bot. Give your bot a name and profile picture. Then go to the 'Bot' tab and 'copy token'. Never share your token. Go to the Oauth2 tab and click the permissions your bot needs. Use the link it generates for you to add the bot to a test server. It will show up as offline.
