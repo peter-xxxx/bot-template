@@ -17,7 +17,7 @@ async def ping(ctx):
 async def coin(ctx):
     await ctx.send(random.choice(['Heads', 'Tails'])) # your bot will choose either 'heads' or 'tails'. 
 
-@bot.command("8ball") # we're making an 8ball command so that it doesn't error
+@bot.command("8ball") # we're making an 8ball command that it doesn't error
 async def _ball(ctx):
     await ctx.send(random.choice(['All', 'The', '8ball', 'Responses']))
 
