@@ -2,6 +2,7 @@
 A bot template using discord.py so you can create your own Discord bot!
 
 
+# what will we use
 discord.py is an API wrapper for discord. We will be using it to create a bot.
 We will host our bot for free on Heroku.
 
@@ -27,3 +28,6 @@ After this, you should have a functional bot. If not, go to 'More' on the Heroku
 3. A Syntax Error usually means you missed an indentation, (), [], "", '', etc. Same if your code stopped changing colors.
 4. If your bot is offline, go to 'More' on your Heroku dashboard, and look at the logs. Most errors are simple to fix. If you want your bot online again right away, make sure that automatic deploys are disabled, and delete the problematic code. Deploy the app again, and work on the code that didn't run.
 5. You should never share your token since people can use it to do bad things with your bot. Make sure that your repository is private, and that you never share it.
+
+# help command
+discord.py comes with a default help command. You can find information about it here: https://gist.github.com/InterStella0/b78488fb28cadf279dfd3164b9f0cf96
