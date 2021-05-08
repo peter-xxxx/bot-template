@@ -26,7 +26,7 @@ After this, you should have a functional bot. If not, go to 'More' on the Heroku
 
 # faq
 1. Yes, this is completely free.
-2. Yes, you could do this on your phone if you didn't have a computer
+2. Yes, you could do this on your phone if you don't have a computer
 3. A Syntax Error usually means you missed an indentation, (), [], "", '', etc. Same if your code stopped changing colors.
 4. If your bot is offline, go to 'More' on your Heroku dashboard, and look at the logs. Most errors are simple to fix. If you want your bot online again right away, make sure that automatic deploys are disabled, and delete the problematic code. Deploy the app again, and work on the code that didn't run.
 5. You should never share your token since people can use it to do bad things with your bot. Make sure that your repository is private, and that you never share it.
